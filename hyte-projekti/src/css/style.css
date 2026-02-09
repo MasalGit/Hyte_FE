@@ -15,6 +15,8 @@ body {
     width: 100%;
     background-color: #ffffff;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .nav_bar ul {
@@ -44,11 +46,9 @@ body {
 }
 
 .logo {
-    position: absolute;
-    left: 20px;
-    top: 10px;
     display: flex;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .logo img {

@@ -64,4 +64,44 @@ const getItemById = async (event) => {
   console.log(item);
   alert(`Item name: ${item.name}`);
 };
-export {getItems, getItemById};
+
+
+// Delete item by id
+////////////////////
+
+const deleteItemById = async (event) => {
+  console.log('deleteItemById called');
+
+  event.preventDefault();
+
+  const idInput = document.querySelector('#itemId');
+  const itemId = idInput.value.trim();
+  console.log('Item ID:', itemId);
+
+  if (!itemId) {
+    alert('Please enter an item ID');
+    return;
+  }
+
+  const url = `http://localhost:3000/api/items/${itemId}`;
+
+  const options = {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+
+  const response = await fetchData(url, options);
+
+  if (response.error) {
+    console.error('Error deleting item:', response.error);
+    alert('Error deleting item: ' + response.error);
+    return;
+  }
+  console.log('Item deleted:', response);
+  alert('Item deleted successfully!');
+  idInput.value = '';
+  getItems();
+};
+export {getItems, getItemById, deleteItemById};
