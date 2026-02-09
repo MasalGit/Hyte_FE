@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsiivinen suunnittelu.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px 0;
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: #f0f415;
+      }
+    }
+    @media screen and (min-width: 800px) {
+      body {
+        background-color: #b1f415;
+      }
+    }
+    #kissa {
+      width: 100%;
+      max-width: 700px;
+    }
+    @media screen and (min-width: 720px) {
+  #kissa {
+    display: block;
+    margin: auto;
+
+    }
+  }
+
+
+  </style>
+</head>
+<body>
+  <h3>Responsiivinen suunnittelu</h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ex, provident soluta cum nam explicabo iste quisquam! Ratione modi tempore recusandae iusto totam ducimus, nobis deserunt quisquam ipsam illo? Dolorum.
+
+  </p>
+  <h3>Normaali IMG kuva ja mediasäännöt</h3>
+  <img id="kissa" src="public/img/Logo.png" alt="Kuva">
+
+</body>
+</html>
