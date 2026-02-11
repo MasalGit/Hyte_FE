@@ -1,0 +1,7 @@
+Tällä hetkellä löytyy:
+Koti sivu (index.html)
+Opettajan Bmi sivu (bmi.html) (Suoraan otettu opettajan githubista(Muokkaan jossain vaiheessa enemmän omankaltaiseksi))
+Ruoka "generator" sivu (ruoka.html) (Tämä oli ensimmäinen oma feature jonka aijon lisätä sivulle.
+Inspiraatio tuli kun mietin mikä sopisi sivun teemaan, ja mietin että tämä liittyisi tarpeeksi bmi)
+Tällä hetkellä 11/02/2026 ruoka.html antaa käyttäjälle vain samat ruuvat joka päivälle. Lopputarkoitus olisi
+saada se generoimaan joka päivälle eri ruokia tietyn kcal rajan sisällä. käyttäjälle pitäisi myös esittää ruokien kcal määrät.

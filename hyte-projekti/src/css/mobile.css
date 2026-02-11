@@ -1,11 +1,32 @@
 @media screen and (max-width: 900px) {
-  .card-inside {
-    float: none;
+
+  body {
+    margin: 30px 20px;
+    padding: 20px;
   }
-  .about-us {
-    padding-right: 80px;
-    background-image: none;
+
+  .nav_bar {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .nav_bar ul {
+    padding: 10px 0;
+  }
+
+  .nav_bar li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .main_text {
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
