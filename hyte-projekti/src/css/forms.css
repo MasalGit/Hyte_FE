@@ -1,0 +1,71 @@
+*:focus {
+  outline: 5px dotted #0000ff;
+}
+
+.registerForm input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+p:hover {
+  color: red;
+}
+
+p ::first-letter {
+  font-size: 200%;
+  color: green;
+}
+
+::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0000ff;
+  box-shadow: 0 0 5px #0000ff;
+}
+
+.registerForm {
+  background-color: #534f4f;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerForm input:valid {
+  border-color: green;
+  background-image: url("../../public/img/Valid.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  padding-right: 40px; /* make space for image */
+}
+
+.registerForm input:invalid {
+  border-color: red;
+  background-image: url("../../public/img/Invalid.jpg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  padding-right: 40px;
+}
+
+.loginForm {
+  background-color: #534f4f;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm input:valid {
+  border-color: rgb(0, 0, 0);
+}
+
+.loginForm input:invalid {
+  border-color: red;
+}

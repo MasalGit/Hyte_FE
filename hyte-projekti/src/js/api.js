@@ -28,7 +28,7 @@ console.log('3');
 console.log('1');
 
 setTimeout(() => {
-  console.log('TIMEOUT?!?!?!?!?!?');
+  console.log('TIMEOUT');
 }, 4000);
 
 console.log('3');
