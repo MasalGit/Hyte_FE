@@ -1,280 +1,297 @@
-* {
-    box-sizing: border-box;
+*{
+box-sizing:border-box;
 }
 
-body {
-    margin: 0;
-    background-image: url("../../public/img/Bg.jpg");
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body{
+margin:0;
+background-image:url("../../public/img/Bg.jpg");
+min-height:100vh;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
 }
 
-.nav_bar {
-    width: 100%;
-    background-color: #ffffff;
-    position: relative;
-    display: flex;
-    align-items: center;
+.nav_bar{
+width:100%;
+background-color:#ffffff;
+display:flex;
+align-items:center;
 }
 
-.nav_bar ul {
-    list-style: none;
-    margin: auto;
-    text-align: center;
-    padding: 20px 0;
+.nav_bar ul{
+list-style:none;
+margin:auto;
+text-align:center;
+padding:20px 0;
 }
 
-.nav_bar li {
-    display: inline-block;
-    margin: 0 15px;
+.nav_bar li{
+display:inline-block;
+margin:0 15px;
 }
 
-.nav_bar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+.nav_bar a{
+text-decoration:none;
+color:#333;
+font-weight:bold;
 }
 
-.nav_bar a:hover {
-    color: #0624eb;
+.nav_bar a:hover{
+color:#0624eb;
 }
 
-.nav_bar a:active {
-    color: #272672;
+.nav_bar a:active{
+color:#272672;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
+.logo{
+display:flex;
+align-items:center;
+padding:10px 20px;
 }
 
-.logo img {
-    height: 40px;
-    width: auto;
-    margin-right: 10px;
+.logo img{
+height:40px;
+width:auto;
+margin-right:10px;
 }
 
-.site_name {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
+.site_name{
+font-size:24px;
+font-weight:bold;
+color:#333;
 }
 
-.main {
-   min-height: 100vh;
-   position: relative;
+.site_tagline{
+font-size:12px;
+color:#666;
+margin-left:5px;
 }
 
-.main_text {
-    color: white;
-    width: 100%;
-    text-align: left;
-    margin-top: 300px;
-    padding: 0 40px;
+/* HERO */
+
+.hero{
+min-height:90vh;
+display:flex;
+align-items:center;
 }
 
-.main_text h1 {
-    font-size: 48px;
-    font-weight: bold;
+.hero_container{
+width:90%;
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
 }
 
-.main_text p {
-    font-size: 20px;
-    line-height: 1.6;
+.hero_text{
+flex:1;
+color:white;
 }
 
-.contact {
-    width: 100%;
-    background-color: #f1f1f1;
-    padding: 20px 0;
-    overflow: hidden;
+.hero_text h1{
+font-size:60px;
+margin-bottom:20px;
 }
 
-.contacts {
-    float: left;
-    width: 30%;
-    margin-left: 3.333%;
-    text-align: center;
+.hero_text p{
+font-size:20px;
+line-height:1.6;
+margin-bottom:30px;
 }
 
-.site_tagline {
-    font-size: 12px;
-    color: #666;
-    margin-left: 5px;
+.hero_btn{
+display:inline-block;
+padding:15px 35px;
+background-color:#0624eb;
+color:white;
+text-decoration:none;
+font-size:18px;
+border-radius:8px;
+font-weight:bold;
+transition:0.3s;
 }
 
-/*********************/
-/* BMI osion tyylittely */
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 30px;
-  background-color: white;
+.hero_btn:hover{
+background-color:#041bb5;
+transform:translateY(-2px);
 }
 
-.card > h2 {
-  margin-top: 15px;
+.hero_image{
+flex:1;
+text-align:center;
 }
 
-.card p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.description {
-  color: grey;
-  font-size: 18px;
+.hero_image img{
+width:350px;
+max-width:100%;
 }
 
-label {
-  display: block;
+/* CONTACT */
+
+.contact{
+width:100%;
+background-color:#f1f1f1;
+padding:20px 0;
+overflow:hidden;
 }
 
-input[type='text'] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.contacts{
+float:left;
+width:30%;
+margin-left:3.333%;
+text-align:center;
 }
 
-.btn {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: rgb(30, 39, 46);
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+/* BMI */
+
+.card{
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+max-width:500px;
+margin:50px auto;
+padding:30px;
+background-color:white;
 }
 
-.btn:hover,
-a:hover {
-  opacity: 0.7;
+.card>h2{
+margin-top:15px;
 }
 
-tbody {
-  background-color: #fff;
+.card p{
+margin-top:20px;
+margin-bottom:20px;
 }
 
-td {
-  border: 1px solid #ddd;
-  padding: 5px;
+.description{
+color:grey;
+font-size:18px;
 }
 
-.lowBmi {
-  background-color: rgb(71, 178, 210);
-}
-.normalBmi {
-  background-color: rgb(112, 223, 112);
-}
-.highBmi {
-  background-color: rgb(244, 148, 30);
+label{
+display:block;
 }
 
-/*********************/
-/* Footer osion tyylittely */
-
-footer {
-  width: 100%;
-  text-align: center;
-  padding-top: 40px;
-  background-color: rgb(117, 11, 44);
-  filter: brightness(40%);
-  height: 100px;
-  margin-top: 50px;
-  color: #fefefe;
+input[type="text"]{
+width:50%;
+padding:12px 20px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:4px;
 }
 
-/* BMI page navigation styling */
-nav {
-  width: 100%;
-  background-color: #ffffff;
-  position: relative;
+.btn{
+margin-top:20px;
+margin-bottom:20px;
+border:none;
+outline:0;
+display:inline-block;
+padding:8px;
+color:white;
+background-color:rgb(30,39,46);
+text-align:center;
+cursor:pointer;
+width:100%;
+font-size:18px;
 }
 
-nav ul {
-  list-style: none;
-  margin: auto;
-  text-align: center;
-  padding: 20px 0;
+.btn:hover{
+opacity:0.7;
 }
 
-nav li {
-  display: inline-block;
-  margin: 0 15px;
+tbody{
+background-color:#fff;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+td{
+border:1px solid #ddd;
+padding:5px;
 }
 
-nav a:hover {
-  color: #0624eb;
+.lowBmi{
+background-color:rgb(71,178,210);
 }
 
-nav a:active {
-  color: #272672;
+.normalBmi{
+background-color:rgb(112,223,112);
 }
 
-#logo {
-  font-size: 24px;
-  font-weight: bold;
+.highBmi{
+background-color:rgb(244,148,30);
 }
 
-/* Ruoka osion tyylittely */
+/* FOOD */
 
-#menuContainer {
-    background-color: white;
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 8px;
+#menuContainer{
+background-color:white;
+max-width:600px;
+margin:30px auto;
+padding:20px;
+border-radius:8px;
 }
 
-#menuContainer h3 {
-    margin-bottom: 10px;
+.menu_box{
+background-color:white;
+max-width:800px;
+margin:80px auto;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
-.menu_box {
-    background-color: white;
-    max-width: 800px;
-    margin: 80px auto;   /* centers it */
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+.day{
+margin-bottom:15px;
+padding:10px;
+border-bottom:1px solid #ddd;
 }
 
+/* INFO */
 
-.day {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.info_box{
+background-color:white;
+max-width:800px;
+margin:80px auto;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* Info */
-.info_box {
-    background-color: white;
-    max-width: 800px;
-    margin: 80px auto;   /* centers it */
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+/* FOOTER */
+
+footer{
+width:100%;
+text-align:center;
+padding-top:40px;
+background-color:rgb(117,11,44);
+filter:brightness(40%);
+height:100px;
+margin-top:50px;
+color:#fefefe;
 }
 
+/* RESPONSIVE */
 
+@media (max-width:900px){
 
+.hero_container{
+flex-direction:column;
+text-align:center;
+}
 
+.hero_text h1{
+font-size:42px;
+}
+
+.hero_image img{
+width:250px;
+}
+
+.contacts{
+width:100%;
+margin:20px 0;
+float:none;
+}
+
+}
