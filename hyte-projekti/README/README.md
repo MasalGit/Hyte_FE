@@ -44,7 +44,13 @@ diaryentries osiosta taas löytyy  entry_id, user_id, entry_date, mood, weight, 
 
 Kotisivu:
 Navbar. (josta pääsee muihin sivuihin.)
-contact osio. (dummy infoa)
+BMI laskuri.
+Ruoka sivu, tämän sivun tarkoitus olisi ollut luoda sinulle ruoka menu viikolle joka olisi noudattanut käyttäjän asettamia asetuksia. However taito ja aika loppui kesken.
+Rajapinnat, simppeli sivu jossa voi testata suuremmaksi osaksi item rajapintoja.
+Kirjaudu sisään. Käyttäjä voi registeröidä, ja kirjautua sisään yhteen tietokannan käyttäjistä. Kun kirjaudut sisään localstorageen tallentuu token jota tarvitaan seuraavassa osassa.
+Päiväkirja. Tarvitsee tokenin muuten ei toimi. Käyttäjä pystyy katsomaan, tekemään, päivittämään, ja poistamaan päiväkirjoja halutessaan.
+"Mikä on mat" Tällä sivulla olisi löytynyt simppeliä faq tietoa mutta en nähnyt sitä tarpeeksi tarvittavaksi tällä hetkellä.
+Yhteystiedot. (dummy infoa)
 Responsiivisuus. sivujen objektit skaalautuvat eri näyttökokoihin. Kaikki buttonit ovat toiminnallisia.
 Autentikointi. tietyt asiat ovat estetty ilman tokenia, kuten entry sivun lataaminen ja entrien käsittely.
 ## Bugit ja ongelmat
@@ -52,4 +58,4 @@ Rajapinnat sivun POST ei toimi.
 ## referenssit, käytetyt tutoriaalit, grafiikkakirjastot, tms.
 W3Sschools oli käytetyin frontend developmentissa, muuten seurasin opettajien ohjeita frontend ja backend koodamisessa.
 
-Miten tekoälyä hyödynnettiin. Käytin githubin tekoälyä kohdissa jossa en saanut jotain toimimaan. Tekoälyä käytettiin myös selittämään osioita, ja kertomaan miten tiettyjä asioita voidaan koodata.
+Miten tekoälyä hyödynnettiin. Käytin githubin tekoälyä kohdissa jossa en saanut jotain toimimaan. Tekoälyä käytettiin myös selittämään asioita, ja kertomaan miten tiettyjä asioita voidaan koodata.
