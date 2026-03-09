@@ -1,5 +1,6 @@
 import '../css/api.css';
-import { getItems, getItemById } from './items';
+import { getItems, getItemById, deleteItemById, addItem, loadItemToPutForm, updateItemById } from './items';
+import { addUser } from './users';
 
 console.log('Scripti starttaa');
 
@@ -69,11 +70,27 @@ async function getData() {
 //GetData();
 // getItems();
 
-//Hakekaa nappula
-//Lisätkää kuuntelija suorittakaa klikatessa getItems funktion
-const getItemsButton = document.querySelector('.get_items');
-getItemsButton.addEventListener('click', getItems);
+const getItemsBtn = document.querySelector('.get_items');
+if (getItemsBtn) getItemsBtn.addEventListener('click', getItems);
 
-// siirrettän varsinanne fetch omaksi geneeriseksi funktioksi
+const getItemsTableBtn = document.querySelector('.get_items_table');
+if (getItemsTableBtn) getItemsTableBtn.addEventListener('click', getItems);
+
 const getForm = document.querySelector('.get-item-form');
-getForm.addEventListener('submit', getItemById);
+if (getForm) getForm.addEventListener('submit', getItemById);
+
+const deleteBtn = document.querySelector('.delete-item');
+if (deleteBtn) deleteBtn.addEventListener('click', deleteItemById);
+
+// Add form handlers
+const addItemForm = document.querySelector('.add-item-form');
+if (addItemForm) addItemForm.addEventListener('submit', addItem);
+
+const addUserForm = document.querySelector('.addform');
+if (addUserForm) addUserForm.addEventListener('submit', addUser);
+
+const loadItemBtn = document.querySelector('.load-item');
+if (loadItemBtn) loadItemBtn.addEventListener('click', loadItemToPutForm);
+
+const putForm = document.querySelector('.put-item-form');
+if (putForm) putForm.addEventListener('submit', updateItemById);

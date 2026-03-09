@@ -97,8 +97,8 @@ const loginUser = async (event) => {
 		localStorage.setItem('name', response.user.username);
 		logResponse('loginResponse', `localStorage set with token value: ${response.token}`);
 		setTimeout(function () {
-			// window.location.href = 'users.html';
-		}, 3000);
+  window.location.href = 'kortit.html';
+}, 1000);
 	}
 
 	console.log(response);
