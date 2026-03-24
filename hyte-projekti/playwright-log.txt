@@ -1,0 +1,37 @@
+{"level":30,"time":"2026-03-24T09:21:46.227Z","pid":14736,"hostname":"Le_Pc","msg":"Listening on 127.0.0.1:64018"}
+{"level":30,"time":"2026-03-24T09:21:46.742Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:21:46.991Z","pid":14736,"hostname":"Le_Pc","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T09:21:46.992Z","pid":14736,"hostname":"Le_Pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T09:21:46.992Z","pid":14736,"hostname":"Le_Pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:21:47.000Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T09:21:47.001Z","pid":14736,"hostname":"Le_Pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@35bb36d6ad97c620c59f6093df532c1e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=58637f7b-5d7b-46ca-8333-62e6943e664b\"}"}
+{"level":30,"time":"2026-03-24T09:21:47.019Z","pid":14736,"hostname":"Le_Pc","msg":"Setting default timeout for context context=5d2c63d4-8fa2-4f76-8e7f-e0e7f239e128 to 10000"}
+{"level":30,"time":"2026-03-24T09:21:47.020Z","pid":14736,"hostname":"Le_Pc","msg":"Changed active context: context=5d2c63d4-8fa2-4f76-8e7f-e0e7f239e128"}
+{"level":30,"time":"2026-03-24T09:21:47.173Z","pid":14736,"hostname":"Le_Pc","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T09:21:47.173Z","pid":14736,"hostname":"Le_Pc","msg":"Changed active page"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+Call log:
+[2m  - navigating to "http://localhost:5173/login.html", waiting until "load"[22m
+
+    at newPage (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13017:18)
+    at async PlaywrightServer.newPage (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2026-03-24T09:21:49.539Z","pid":14736,"hostname":"Le_Pc","msg":"Error of node method  newPage"}
+{"level":30,"time":"2026-03-24T09:21:49.554Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
+    at takeScreenshot (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:11152:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13635:34)
+    at Object.onReceiveHalfClose (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-03-24T09:21:49.554Z","pid":14736,"hostname":"Le_Pc","msg":"Error of node method  takeScreenshot"}

@@ -1,0 +1,30 @@
+{"level":30,"time":"2026-03-24T09:23:04.706Z","pid":23652,"hostname":"Le_Pc","msg":"Listening on 127.0.0.1:60184"}
+{"level":30,"time":"2026-03-24T09:23:05.007Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:23:05.314Z","pid":23652,"hostname":"Le_Pc","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T09:23:05.315Z","pid":23652,"hostname":"Le_Pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T09:23:05.315Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T09:23:05.327Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T09:23:05.328Z","pid":23652,"hostname":"Le_Pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2610df2022035c46c3c4d85f1530bd00\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b9b32b71-6a58-43f6-87e6-92d7ca44da41\"}"}
+{"level":30,"time":"2026-03-24T09:23:05.356Z","pid":23652,"hostname":"Le_Pc","msg":"Setting default timeout for context context=fd63375a-e985-4f50-81a9-6a659f2fb31d to 10000"}
+{"level":30,"time":"2026-03-24T09:23:05.356Z","pid":23652,"hostname":"Le_Pc","msg":"Changed active context: context=fd63375a-e985-4f50-81a9-6a659f2fb31d"}
+{"level":30,"time":"2026-03-24T09:23:05.571Z","pid":23652,"hostname":"Le_Pc","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T09:23:05.572Z","pid":23652,"hostname":"Le_Pc","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T09:23:05.844Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T09:23:05.866Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:05.866Z","pid":23652,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with .loginForm [name=\"username\"] in page."}
+{"level":30,"time":"2026-03-24T09:23:05.946Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:05.951Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:05.951Z","pid":23652,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with .loginForm [name=\"password\"] in page."}
+{"level":30,"time":"2026-03-24T09:23:05.981Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-24T09:23:05.986Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-24T09:23:05.986Z","pid":23652,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with .loginForm input[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-24T09:23:06.106Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method click"}
+{"level":30,"time":"2026-03-24T09:23:06.112Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T09:23:06.112Z","pid":23652,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with id=loginResponse in page."}
+{"level":30,"time":"2026-03-24T09:23:06.147Z","pid":23652,"hostname":"Le_Pc","msg":"Retrieved text for element id=loginResponse containing "}
+{"level":30,"time":"2026-03-24T09:23:06.147Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T09:23:06.657Z","pid":23652,"hostname":"Le_Pc","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T09:23:06.657Z","pid":23652,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with id=loginResponse in page."}
+{"level":30,"time":"2026-03-24T09:23:06.671Z","pid":23652,"hostname":"Le_Pc","msg":"Retrieved text for element id=loginResponse containing localStorage set with token value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsInVzZXJuYW1lIjoiVGVzdGEiLCJ1c2VyX2xldmVsIjoicmVndWxhciIsImlhdCI6MTc3NDM0NDE4NiwiZXhwIjoxNzc0MzQ3Nzg2fQ.85uOyYGM2edZ8zFGz_nqSud2XKoFVVaywdF8Fb4pZo8"}
+{"level":30,"time":"2026-03-24T09:23:06.671Z","pid":23652,"hostname":"Le_Pc","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T09:23:22.813Z","pid":23652,"hostname":"Le_Pc","msg":"Removed page=3cfacd99-9328-488a-8be8-3d22b6efe922 from context=fd63375a-e985-4f50-81a9-6a659f2fb31d page stack"}
