@@ -1,123 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.13.7 on win32)" generated="2026-03-24T11:23:02.932535" rpa="false" schemaversion="5">
-<suite id="s1" name="Browser Demo" source="C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\tests\tehtävä_2\browser_demo.robot">
-<test id="s1-t1" name="Test Web Form" line="6">
+<robot generator="Robot 7.4.2 (Python 3.13.7 on win32)" generated="2026-03-29T17:35:57.154122" rpa="false" schemaversion="5">
+<suite id="s1" name="Browser Demo" source="C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\tests\tehtävä_3\browser_demo.robot">
+<test id="s1-t1" name="Test Web Form Ultimate" line="6">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-24T11:23:03.398315" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\browser\\traces\\temp\\0197332e-1cf1-42d8-8811-bd1ff5da9537"}</msg>
-<msg time="2026-03-24T11:23:03.442191" level="INFO">Starting Browser process C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:60184</msg>
-<msg time="2026-03-24T11:23:05.320419" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\browser\\traces\\temp\\0197332e-1cf1-42d8-8811-bd1ff5da9537"}</msg>
+<msg time="2026-03-29T17:35:57.464646" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\browser\\traces\\temp\\3efe8d1d-7bb1-407c-995a-edd81cd83157"}</msg>
+<msg time="2026-03-29T17:35:57.487480" level="INFO">Starting Browser process C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:51130</msg>
+<msg time="2026-03-29T17:35:58.743049" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\browser\\traces\\temp\\3efe8d1d-7bb1-407c-995a-edd81cd83157"}</msg>
 <arg>chromium</arg>
 <arg>headless=No</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-24T11:23:03.396151" elapsed="1.924886"/>
+<status status="PASS" start="2026-03-29T17:35:57.464026" elapsed="1.279338"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-24T11:23:05.849656" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/login.html</msg>
-<msg time="2026-03-24T11:23:05.849872" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<arg>http://localhost:5173/login.html</arg>
+<msg time="2026-03-29T17:35:59.307258" level="INFO">Successfully initialized new page object and opened url: https://www.selenium.dev/selenium/web/web-form.html</msg>
+<msg time="2026-03-29T17:35:59.307334" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.selenium.dev/selenium/web/web-form.html</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-24T11:23:05.322877" elapsed="0.527327"/>
+<status status="PASS" start="2026-03-29T17:35:58.744025" elapsed="0.563476"/>
 </kw>
-<kw name="Get Title" owner="Browser">
-<msg time="2026-03-24T11:23:05.863323" level="INFO">Title: 'Vite App'</msg>
-<arg>==</arg>
-<arg>Vite App</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-29T17:35:59.333837" level="INFO">Waited for Element with selector [name="my-text"] at state visible</msg>
+<arg>[name="my-text"]</arg>
+<arg>visible</arg>
 <tag>PageContent</tag>
-<doc>Returns the title of the current page.</doc>
-<status status="PASS" start="2026-03-24T11:23:05.850821" elapsed="0.012712"/>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-29T17:35:59.307801" elapsed="0.026221"/>
 </kw>
 <kw name="Type Text" owner="Browser">
-<msg time="2026-03-24T11:23:05.864947" level="INFO">Types the text 'Testa' in the given field.</msg>
-<arg>.loginForm [name="username"]</arg>
+<msg time="2026-03-29T17:35:59.335088" level="INFO">Types the text 'somebody@example.com' in the given field.</msg>
+<arg>[name="my-text"]</arg>
 <arg>${Username}</arg>
+<arg>delay=0.1 s</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-24T11:23:05.864000" elapsed="0.086114"/>
+<status status="PASS" start="2026-03-29T17:35:59.334351" elapsed="2.218498"/>
 </kw>
 <kw name="Type Secret" owner="Browser">
-<arg>.loginForm [name="password"]</arg>
+<arg>[name="my-password"]</arg>
 <arg>$Password</arg>
+<arg>delay=0.1 s</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given secret from ``variable_name`` into the text field
 found by ``selector``.</doc>
-<status status="PASS" start="2026-03-24T11:23:05.950587" elapsed="0.034723"/>
+<status status="PASS" start="2026-03-29T17:36:01.553362" elapsed="1.398590"/>
 </kw>
-<kw name="Click" owner="Browser">
-<msg time="2026-03-24T11:23:05.986615" level="INFO">Clicks the element '.loginForm input[type="submit"]'.</msg>
-<arg>.loginForm input[type="submit"]</arg>
+<kw name="Type Text" owner="Browser">
+<msg time="2026-03-29T17:36:02.953415" level="INFO">Types the text 'Epic test' in the given field.</msg>
+<arg>[name="my-textarea"]</arg>
+<arg>${Message}</arg>
+<arg>delay=0.1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-29T17:36:02.952492" elapsed="1.066135"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<msg time="2026-03-29T17:36:04.020159" level="INFO">Selects the option(s) 2 by attribute SelectAttribute.value from element select[name="my-select"].</msg>
+<arg>select[name="my-select"]</arg>
+<arg>value</arg>
+<arg>2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-29T17:36:04.019225" elapsed="0.032060"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2026-03-29T17:36:04.052576" level="INFO">Types the text 'Helsinki' in the given field.</msg>
+<arg>[name="my-datalist"]</arg>
+<arg>Helsinki</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-29T17:36:04.051844" elapsed="0.059095"/>
+</kw>
+<kw name="Upload File By Selector" owner="Browser">
+<arg>input[type="file"]</arg>
+<arg>C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\tests\\tehtävä_3/test.txt</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Uploads file from ``path`` to file input element matched by selector.</doc>
+<status status="PASS" start="2026-03-29T17:36:04.111404" elapsed="0.013260"/>
+</kw>
+<kw name="Check Checkbox" owner="Browser">
+<arg>role=checkbox[name="Default checkbox"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2026-03-29T17:36:04.125154" elapsed="0.036694"/>
+</kw>
+<kw name="Check Checkbox" owner="Browser">
+<msg time="2026-03-29T17:36:09.882835" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2026-03-29T17:36:09.882949" level="INFO">See also file:///C:/Users/paavo/Documents/GitHub/Hyte_FE/hyte-projekti/playwright-log.txt for additional details.</msg>
+<msg time="2026-03-29T17:36:09.883386" level="FAIL">Error: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('role=radio[name="Radio 2"]')
+</msg>
+<arg>role=radio[name="Radio 2"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="FAIL" start="2026-03-29T17:36:04.162206" elapsed="5.725939">Error: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('role=radio[name="Radio 2"]')
+</status>
+</kw>
+<kw name="Click With Options" owner="Browser">
+<arg>button</arg>
+<arg>delay=1 s</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-24T11:23:05.985828" elapsed="0.123898"/>
+<status status="NOT RUN" start="2026-03-29T17:36:09.888470" elapsed="0.000184"/>
 </kw>
-<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
-<kw name="Check Login Response">
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-24T11:23:06.150637" level="INFO">Text: ''</msg>
-<msg time="2026-03-24T11:23:06.150935" level="INFO">${text} = </msg>
-<var>${text}</var>
-<arg>id=loginResponse</arg>
+<arg>id=message</arg>
+<arg>==</arg>
+<arg>Received!</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-24T11:23:06.112153" elapsed="0.038856"/>
+<status status="NOT RUN" start="2026-03-29T17:36:09.888847" elapsed="0.000110"/>
 </kw>
-<kw name="Should Contain" owner="BuiltIn">
-<msg time="2026-03-24T11:23:06.152636" level="FAIL">'' does not contain 'token'</msg>
-<arg>${text}</arg>
-<arg>token</arg>
-<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="FAIL" start="2026-03-24T11:23:06.151329" elapsed="0.001593">'' does not contain 'token'</status>
-</kw>
-<status status="FAIL" start="2026-03-24T11:23:06.111538" elapsed="0.041699">'' does not contain 'token'</status>
-</kw>
-<kw name="Check Login Response">
-<kw name="Get Text" owner="Browser">
-<msg time="2026-03-24T11:23:06.675293" level="INFO">Text: 'localStorage set with token value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsInVzZXJuYW1lIjoiVGVzdGEiLCJ1c2VyX2xldmVsIjoicmVndWxhciIsImlhdCI6MTc3NDM0NDE4NiwiZXhwIjoxNzc0MzQ3Nzg2fQ.85uOyYGM2edZ8zFGz_nqSud2XKoFVVaywdF8Fb4pZo8'</msg>
-<msg time="2026-03-24T11:23:06.675690" level="INFO">${text} = localStorage set with token value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsInVzZXJuYW1lIjoiVGVzdGEiLCJ1c2VyX2xldmVsIjoicmVndWxhciIsImlhdCI6MTc3NDM0NDE4NiwiZXhwIjoxNzc0MzQ3Nzg2fQ.85uOyYGM2edZ8...</msg>
-<var>${text}</var>
-<arg>id=loginResponse</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-24T11:23:06.655581" elapsed="0.020176"/>
-</kw>
-<kw name="Should Contain" owner="BuiltIn">
-<arg>${text}</arg>
-<arg>token</arg>
-<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" start="2026-03-24T11:23:06.676129" elapsed="0.000871"/>
-</kw>
-<status status="PASS" start="2026-03-24T11:23:06.654642" elapsed="0.022498"/>
-</kw>
-<arg>5s</arg>
-<arg>500ms</arg>
-<arg>Check Login Response</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<status status="PASS" start="2026-03-24T11:23:06.110250" elapsed="0.566966"/>
-</kw>
-<status status="PASS" start="2026-03-24T11:23:03.374746" elapsed="3.302862"/>
+<status status="FAIL" start="2026-03-29T17:35:57.463275" elapsed="12.425931">Error: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('role=radio[name="Radio 2"]')
+</status>
 </test>
-<status status="PASS" start="2026-03-24T11:23:02.934918" elapsed="3.747597"/>
+<status status="FAIL" start="2026-03-29T17:35:57.155422" elapsed="12.737617"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Browser Demo" id="s1" pass="1" fail="0" skip="0">Browser Demo</stat>
+<stat name="Browser Demo" id="s1" pass="0" fail="1" skip="0">Browser Demo</stat>
 </suite>
 </statistics>
 <errors>

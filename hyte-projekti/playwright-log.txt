@@ -1,26 +1,54 @@
-{"level":30,"time":"2026-03-24T09:21:46.227Z","pid":14736,"hostname":"Le_Pc","msg":"Listening on 127.0.0.1:64018"}
-{"level":30,"time":"2026-03-24T09:21:46.742Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T09:21:46.991Z","pid":14736,"hostname":"Le_Pc","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T09:21:46.992Z","pid":14736,"hostname":"Le_Pc","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T09:21:46.992Z","pid":14736,"hostname":"Le_Pc","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T09:21:47.000Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T09:21:47.001Z","pid":14736,"hostname":"Le_Pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@35bb36d6ad97c620c59f6093df532c1e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=58637f7b-5d7b-46ca-8333-62e6943e664b\"}"}
-{"level":30,"time":"2026-03-24T09:21:47.019Z","pid":14736,"hostname":"Le_Pc","msg":"Setting default timeout for context context=5d2c63d4-8fa2-4f76-8e7f-e0e7f239e128 to 10000"}
-{"level":30,"time":"2026-03-24T09:21:47.020Z","pid":14736,"hostname":"Le_Pc","msg":"Changed active context: context=5d2c63d4-8fa2-4f76-8e7f-e0e7f239e128"}
-{"level":30,"time":"2026-03-24T09:21:47.173Z","pid":14736,"hostname":"Le_Pc","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T09:21:47.173Z","pid":14736,"hostname":"Le_Pc","msg":"Changed active page"}
+{"level":30,"time":"2026-03-29T14:35:58.175Z","pid":32912,"hostname":"Le_Pc","msg":"Listening on 127.0.0.1:51130"}
+{"level":30,"time":"2026-03-29T14:35:58.530Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-29T14:35:58.741Z","pid":32912,"hostname":"Le_Pc","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-29T14:35:58.741Z","pid":32912,"hostname":"Le_Pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-29T14:35:58.741Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-29T14:35:58.747Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-29T14:35:58.748Z","pid":32912,"hostname":"Le_Pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@67e8185c6519b1e55dddbbdbb9eeff1b\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b5bf7dd4-0924-47b9-a9c8-9fde340387e1\"}"}
+{"level":30,"time":"2026-03-29T14:35:58.760Z","pid":32912,"hostname":"Le_Pc","msg":"Setting default timeout for context context=62ebe844-c56e-47e5-9b52-58dc8e603e65 to 10000"}
+{"level":30,"time":"2026-03-29T14:35:58.760Z","pid":32912,"hostname":"Le_Pc","msg":"Changed active context: context=62ebe844-c56e-47e5-9b52-58dc8e603e65"}
+{"level":30,"time":"2026-03-29T14:35:58.879Z","pid":32912,"hostname":"Le_Pc","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-29T14:35:58.879Z","pid":32912,"hostname":"Le_Pc","msg":"Changed active page"}
+{"level":30,"time":"2026-03-29T14:35:59.305Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-29T14:35:59.310Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-29T14:35:59.310Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2026-03-29T14:35:59.333Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-29T14:35:59.336Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-29T14:35:59.337Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:01.551Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:01.556Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:01.556Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:02.951Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:02.955Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:02.955Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:04.017Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:04.022Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-03-29T14:36:04.022Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with select[name=\"my-select\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:04.049Z","pid":32912,"hostname":"Le_Pc","msg":"Option entries: 4"}
+{"level":30,"time":"2026-03-29T14:36:04.049Z","pid":32912,"hostname":"Le_Pc","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-03-29T14:36:04.049Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-03-29T14:36:04.054Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:04.054Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with [name=\"my-datalist\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:04.110Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method typeText"}
+{"level":30,"time":"2026-03-29T14:36:04.115Z","pid":32912,"hostname":"Le_Pc","msg":"Reading multiplepart uploadFileBySelector"}
+{"level":30,"time":"2026-03-29T14:36:04.115Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with input[type=\"file\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:04.116Z","pid":32912,"hostname":"Le_Pc","msg":"Uploading file(s) C:\\Users\\paavo\\Documents\\GitHub\\Hyte_FE\\hyte-projekti\\tests\\tehtävä_3\\test.txt to input[type=\"file\"]"}
+{"level":30,"time":"2026-03-29T14:36:04.128Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2026-03-29T14:36:04.128Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with role=checkbox[name=\"Default checkbox\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:04.161Z","pid":32912,"hostname":"Le_Pc","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2026-03-29T14:36:04.164Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2026-03-29T14:36:04.164Z","pid":32912,"hostname":"Le_Pc","msg":"Strict mode is enabled, find Locator with role=radio[name=\"Radio 2\"] in page."}
+{"level":30,"time":"2026-03-29T14:36:09.878Z","pid":32912,"hostname":"Le_Pc","msg":"Removed page=c855fad5-39a8-474a-9381-a679457fb37b from context=62ebe844-c56e-47e5-9b52-58dc8e603e65 page stack"}
 ================= Original suppressed error =================
-page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:5173/login.html
+locator.waitFor: Target page, context or browser has been closed
 Call log:
-[2m  - navigating to "http://localhost:5173/login.html", waiting until "load"[22m
+[2m  - waiting for locator('role=radio[name="Radio 2"]')[22m
 
-    at newPage (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13017:18)
-    at async PlaywrightServer.newPage (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
-  name: 'Error'
-}
+    at checkCheckbox (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:12371:17)
+    at async PlaywrightServer.checkCheckbox (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:13635:28)
 =============================================================
-{"level":30,"time":"2026-03-24T09:21:49.539Z","pid":14736,"hostname":"Le_Pc","msg":"Error of node method  newPage"}
-{"level":30,"time":"2026-03-24T09:21:49.554Z","pid":14736,"hostname":"Le_Pc","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-29T14:36:09.878Z","pid":32912,"hostname":"Le_Pc","msg":"Error of node method  checkCheckbox"}
+{"level":30,"time":"2026-03-29T14:36:09.882Z","pid":32912,"hostname":"Le_Pc","msg":"Start of node method takeScreenshot"}
 ================= Original suppressed error =================
 Error: Tried to take screenshot, but no page was open.
     at exists (C:\Users\paavo\Documents\GitHub\Hyte_FE\hyte-projekti\.venv\Lib\site-packages\Browser\wrapper\index.js:11096:11)
@@ -34,4 +62,4 @@ Error: Tried to take screenshot, but no page was open.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
 =============================================================
-{"level":30,"time":"2026-03-24T09:21:49.554Z","pid":14736,"hostname":"Le_Pc","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2026-03-29T14:36:09.883Z","pid":32912,"hostname":"Le_Pc","msg":"Error of node method  takeScreenshot"}
