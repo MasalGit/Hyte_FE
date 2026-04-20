@@ -3,7 +3,7 @@ Sain koodin pyörimään mutta pari erroria tuli, yritin niitä hioa mutta ei si
 
 
 
-# Tässä kuva konsolista jossa ei ollut failejä.
+# Tässä kuva konsolista
 ![Asennustesti tulos](Tehtävä9.png)
 
 ## Files
